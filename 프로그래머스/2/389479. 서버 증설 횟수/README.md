@@ -2,6 +2,8 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/389479) 
 
+[Tistory](https://mooni-123.tistory.com/45)
+
 ### 성능 요약
 
 메모리: 33.4 MB, 시간: 0.29 ms
