@@ -1,7 +1,8 @@
 //Binary Search
 function solution(diffs, times, limit) {
     let left = 1;
-    let right = diffs.reduce((acc, cur) => Math.max(acc, cur), 1);
+    //let right = Math.max(...diffs); => 런타임 에러 발생
+    let right = diffs.reduce((acc, cur) => Math.max(acc, cur), 1)
     let level = 0;
 
     const canClear = (level) => {
